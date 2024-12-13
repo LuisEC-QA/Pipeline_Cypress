@@ -1,0 +1,3 @@
+projectId: "4fg26c"
+
+npx cypress run --record --key b4da640e-628e-46db-b424-82009265d1f5
