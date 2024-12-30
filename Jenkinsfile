@@ -14,7 +14,7 @@ pipeline {
                     steps {
                         git url: 'https://github.com/LuisEC-QA/Pipeline_Cypress.git'
                         bat 'npm install'
-                        bat 'npm update' 
+                        bat 'npm update'    
                         bat 'npm install --save-dev cypress-plugin-tab'                      
                         bat 'npx cypress run --record --key b4da640e-628e-46db-b424-82009265d1f5  --parallel'
                     
@@ -28,8 +28,8 @@ pipeline {
                     steps {
                         git url: 'https://github.com/LuisEC-QA/Pipeline_Cypress.git'
                         bat 'npm install'
-                        bat 'npm update'   
-                        bat 'npm install --save-dev cypress-plugin-tab'                       
+                        bat 'npm update'    
+                        bat 'npm install --save-dev cypress-plugin-tab'                      
                         bat 'npx cypress run --record --key b4da640e-628e-46db-b424-82009265d1f5  --parallel'
                     
                     }
@@ -56,8 +56,8 @@ pipeline {
                     steps {
                         git url: 'https://github.com/LuisEC-QA/Pipeline_Cypress.git'
                         bat 'npm install'
-                        bat 'npm update'   
-                        bat 'npm install --save-dev cypress-plugin-tab'                       
+                        bat 'npm update'    
+                        bat 'npm install --save-dev cypress-plugin-tab'                      
                         bat 'npx cypress run --record --key b4da640e-628e-46db-b424-82009265d1f5  --parallel'
                     
                     }
