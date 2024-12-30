@@ -7,7 +7,7 @@ describe('Section 1 Type',()=>{
     cy.visit('https://www.google.com/')
     cy.title().should('eq','Google')
     cy.get("#APjFqb").type("cypress io{enter}")
-    cy.get("#rso > div.hlcw0c > div > div > div > div > div > div > div > div.yuRUbf > div > span > a > h3").click()
+    cy.get('[lang="en"] > .tF2Cxc > .yuRUbf > :nth-child(1) > [jscontroller="msmzHf"] > a > .LC20lb').click()
     cy.wait(4000)
     })
 })
